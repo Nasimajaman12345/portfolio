@@ -1,0 +1,513 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+navbar{
+    background-color: gray;
+}
+
+.nav-link{
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.nav-link:hover{
+    background-color: black;
+    color: white;
+}
+
+.navbar-brand{
+    font-size: 1.25rem;
+    font-weight: 80
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+/*main section*/
+
+
+
+.main h3{font-size: 4.4rem;
+    font-weight:700;
+
+}
+.main h6{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 1;
+    border-bottom: 3px solid rgb(233, 20, 109);
+    width:40%;
+}
+
+
+.main  .bt1 {
+    height: 55px;
+    width: 138px;
+    background-color: rgb(233, 20, 109);
+    color: white;
+    outline: none;
+    border: none;
+    font-weight:bold;
+    border-radius:5px;
+}
+
+.main  .bt1:hover{
+    background-color: rgb(233, 20, 95);
+    transition: 0.5s;
+}
+
+.main  .bt2 {
+    height: 55px;
+    width: 138px;
+    background-color: transparent;
+    color:rgb(233, 20, 109);
+    outline: none;
+    border:1 px solid rgb(233, 20, 109);
+    font-weight:bold;
+    border-radius:5px;
+}
+
+.main  .bt2:hover{
+    background-color: rgb(233, 20, 95);
+    color: white;
+    transition: 0.5s;
+}
+
+/*about section*/
+
+.about img{-webkit-box-shadow: 15px 5px 15px -4px rgba(0,0,0,0.51);
+    -moz-box-shadow: 15px 5px 15px -4px rgba(0,0,0,0.51);
+    box-shadow: 15px 5px 15px -4px rgba(0,0,0,0.51);
+            height: 550px;
+            width: 350px;}
+
+
+.progress{
+    background-color: rgb(233, 219, 219);
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 25px;
+    width: 100%;
+
+}
+.pro-value1{
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+.progress p{
+    color: white;
+    margin: 8px;
+    padding: 0px;
+}
+.pro-value2{
+    animation: load1 2s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+
+.pro-value3{
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+
+.pro-value4{
+    animation: load1 4s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+
+
+.pro-value1{
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+
+@keyframes load1{
+    0%{width:0;}
+
+    100%{
+        width: 95%;
+    }
+}
+
+@keyframes load2{
+    0%{width:0;}
+
+    100%{
+        width: 91%;
+    }
+}
+
+@keyframes load3{
+    0%{width:0;}
+
+    100%{
+        width: 98%;
+    }
+}
+@keyframes load4{
+    0%{width:0;}
+
+    100%{
+        width: 65%;
+    }
+}
+
+.btn1{
+    height: 40px;
+    width: 145px;
+    outline:none;
+    border:none;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 4px;
+}
+
+
+.btn1:hover{ background-color: transparent;
+            color: black;
+            border: 1px solid black;
+            transition: 4.1s;
+
+}
+
+.btn2{
+    height: 40px;
+    width: 145px;
+    outline:none;
+    border:1px solid black;
+    background-color: transparent;
+    color:black;
+    border-radius: 4px;
+}
+
+
+.btn2:hover{ background-color:black;
+    color: white;
+    border: none;
+    transition: 4.1s;
+
+}
+
+
+/*services section*/
+
+.card{
+    border: none;
+    outline: none;
+    -webkit-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+    -moz-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+    box-shadow:  -8px 6px 89px -65px rgba(0,0,0,0.75);
+}
+.card p{
+    color: gray;
+}
+
+.circle{
+    min-height: 70px;
+    width: 70px;
+    background-color: rgb(87, 83, 83);
+    color: black;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 12px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.card :hover .circle{
+    background-color: black;
+    color: white;
+    transition: 0.5;
+}
+
+
+/*port sectrion*/
+.control ul li{
+    list-style-type: none;
+    background-color: black;
+    padding: 5px 15px;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.item{
+    position: relative;
+}
+
+.item:hover{
+    -webkit-box-shadow: -18px 3px 109px -65px rgba(0,0,0,0.75);
+    -moz-box-shadow: -18px 3px 109px -65px rgba(0,0,0,0.75);
+    box-shadow:  -18px 3px 109px -65px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+.item span{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 40px;
+    color: black;
+    cursor: pointer;
+    opacity: 0;
+      
+}
+
+.item:hover span{
+   
+    opacity: 1;
+    transition: 0.5s;
+
+}
+.item::before{
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(238,235,230,0,479);
+    opacity: 0;
+    position: absolute;
+
+}
+
+.item:hover:before{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+
+
+
+
+/*1 contact section*/
+
+.box{
+    background-color: black;
+    color: #ddd;
+    padding: 20px;
+    border-radius: 20px;
+    height: 300px;
+    text-align: center;
+}
+
+
+.box h5{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+    
+}
+
+.box p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    
+}
+
+
+.box .fa-clock{
+    color:white;
+    font-size: 30px;
+    padding: 10px;
+    background-color:green;
+    border-radius: 50px;
+}
+
+
+.box .fa-phone{
+    color:white;
+    font-size: 30px;
+    padding: 10px;
+    background-color:green;
+    border-radius: 50px;
+}
+
+.box .fa-facebook{
+    color:white;
+    font-size: 30px;
+    padding: 10px;
+    background-color:green;
+    border-radius: 50px;
+}
+
+
+.box .fa-telegram{
+    color:white;
+    font-size: 30px;
+    padding: 10px;
+    background-color:green;
+    border-radius: 50px;
+}
+
+
+/*1 contact prt*/
+
+.card{
+    border: none;
+    outline: none;
+    -webkit-box-shadow: 2px 6px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 6px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 6px 5px 0px rgba(0,0,0,0.75)
+
+}
+
+.card p{
+    color: gray;
+}
+
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color:rgb(228, 218, 218);
+    color: black;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 12px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.card:hover .circle{
+    background-color:black;
+    color: white;
+    transition: 0.5s;
+}
+
+.circle:hover{
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+/*1 cont new part*/
+.btn3 {
+    background-color: black;
+    color: #fff;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 140px;
+    border-radius: 4px;
+
+}
+
+.btn3:hover{
+    background: white;
+    color:black;
+    transition: 0.4s;
+    border: 1px solid black;
+}
+/*2 hde contact html part reg*/
+
+*{margin: 0;
+    padding: 0;}
+
+    .main-div{width: 450px;
+                margin: 100px 0px 0px 50px;
+                position: relative;
+                  left: 300px;
+                top:50px;}
+
+
+      h3{text-align: center;
+              padding: 20px;
+              font-family: sans-serif;}
+
+
+      .register{background-color: rgba(0,0,0,0.5);
+                    width: 100%;
+                    font-size: 18px;
+                    border-radius: 10px;
+                    border: 1px solid
+                            rgba(255,255,255,0.3);
+                          box-shadow: 2px 2px 15px
+                                  rgba(0,0,0,0.3);
+                                color:#fff;}
+
+
+          form#register{margin: 40px;}
+
+          label{font-family: sans-serif;
+                  font-size: 18px;
+                  font-style: italic;}
+
+
+          input#name
+                    {width: 350px;
+                        border: 1px solid #ddd;
+                        border-radius: 3px;
+                        background-color: #fff;
+                        outline: none;
+                        padding: 7px;
+                        box-shadow: inset 1px 1px 5px
+                                  rgba(0,0,0,0.3);}
+
+
+            input#submit
+                          {width: 150px;
+                          padding: 7px;
+                        font-size: 16px;
+                        font-family: sans-serif;
+                        border-radius: 3px;
+                        background-color: rgba(250,100,0,0,8);
+                        cursor: pointer;
+                        color: black;
+                        border: 1px solid rgba(255,255,255,0.3);
+                      box-shadow: rgba(0,0,0,0.3);
+                      margin-bottom:15px;}
+                      
+
+                      label,span,h3
+                                    {text-shadow:rgba(0,0,0,0.3);}
+
+
+        /*srv section card*/
+
+.card-img-top:hover{
+    transform: scale(1.2);
+
+
+}
+
+
+
+
+
+
+/*fotter section*/
+
+
+.footer{
+    background-color: black;
+    color: #fff;
+    height:70px;
+    padding: 60px;
+}
+
+
+
